@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build artifacts
+artifacts/
+cache/
+frontend/dist/
+typechain-types/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Deployments (keep structure, ignore generated)
+deployments/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+coverage.json

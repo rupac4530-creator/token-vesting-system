@@ -1,0 +1,22 @@
+{
+  "name": "token-vesting-system",
+  "version": "1.0.0",
+  "description": "A Token Vesting System DApp with cliff periods and linear token release",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:scai": "hardhat run scripts/deploy.js --network scai",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": ["token", "vesting", "blockchain", "solidity", "DApp", "SCAI"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.22.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.0"
+  }
+}
